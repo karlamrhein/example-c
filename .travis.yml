@@ -1,5 +1,6 @@
 language: c
-sudo: false # only for faster builds
+sudo: required
+# sudo: false # only for faster builds
 script:
   - clang -coverage -O0 hello.c -o hello
   - clang -coverage -O0 foo.c -o foo
