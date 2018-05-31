@@ -5,7 +5,7 @@ static int t = 1;
 int main()
 {
     if (t)
-        printf("on this line hi from Karl\n");
+        printf("this line says hi from Karl\n");
     else
         printf("but not here\n");
 
